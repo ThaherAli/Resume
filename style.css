@@ -1,0 +1,425 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px;
+    background: rgb(0, 0, 0,0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    text-decoration:none;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: dodgerblue;
+    text-shadow: 0 0 25px dodgerblue, 0 0 50px dodgerblue;
+    transform: scale(1.1);
+
+}
+span{
+    color: dodgerblue;
+}
+.nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;;
+    margin: 0 5px;
+    margin-right: 150px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.nav a:hover,
+.nav a.active{
+    color: dodgerblue;
+    border-bottom:3px solid dodgerblue ;
+}
+.home{
+    align-items: center ;
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 10% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 45px;
+}
+.home-content h1{
+    font-size: 70px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 20px;
+    font-style: italic;
+    margin: 25px 0 30px;
+}
+.image img{
+    border-radius: 50%;
+    width: 400px;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background:#040404;
+
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 62px;
+    margin-right: 25%;
+}
+span{
+    color: dodgerblue;
+}
+
+.about-content p{
+    color: white;
+    font-size: 18px;
+
+}
+.about-content p span{
+    color: #008080;
+}
+.qualification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 8%;
+    gap: 9em;
+}
+    
+
+.studies{
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 35%;
+
+  
+
+}
+.studies h1{
+    font-size: 45px;
+
+
+}
+.studies h2{
+    font-size: 27px;
+    font-family:Georgia;'Times New Roman'; Times, serif;
+    font-weight:bold;
+}
+
+
+.institute{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size:medium;
+}
+.gap1{
+    width: 60%;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+.ability{
+    display: flex;
+    padding: 5%  8%;
+    gap: 8em;
+}
+.ability h1{
+    font-size: 45px;
+}
+.skills
+{
+    text-align: justify;
+    margin-left: 25%;
+}
+.known{
+    font-size: 27px;
+    font-weight: 500;
+}
+.gap2{
+    width: 60%;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+.real{
+    display: flex;
+    padding: 5% 8%;
+    gap: 9em;
+}
+.real h1{
+    font-size: 45px;
+}
+.project{
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 35%;
+}
+.projecttitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+.overview{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: medium;
+
+}
+.gap3{
+    width: 60%;
+    margin-left: 22%;
+    margin-right: 20%;
+
+}
+.contact h1{
+    font-size: 45px;
+}
+.contact{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-between;
+}
+footer{
+    text-align: center;
+}body {
+    overflow-x: hidden;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px;
+    background: rgb(0, 0, 0,0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    text-decoration:none;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: dodgerblue;
+    text-shadow: 0 0 25px dodgerblue, 0 0 50px dodgerblue;
+    transform: scale(1.1);
+
+}
+span{
+    color: dodgerblue;
+}
+.nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;;
+    margin: 0 5px;
+    margin-right: 150px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.nav a:hover,
+.nav a.active{
+    color: dodgerblue;
+    border-bottom:3px solid dodgerblue ;
+}
+.home{
+    align-items: center ;
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 10% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 45px;
+}
+.home-content h1{
+    font-size: 70px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 20px;
+    font-style: italic;
+    margin: 25px 0 30px;
+}
+.image img{
+    border-radius: 50%;
+    width: 400px;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background:#040404;
+
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 62px;
+    margin-right: 25%;
+}
+span{
+    color: dodgerblue;
+}
+
+.about-content p{
+    color: white;
+    font-size: 18px;
+
+}
+.about-content p span{
+    color: #008080;
+}
+.qualification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 8%;
+    gap: 9em;
+}
+    
+
+.studies{
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 35%;
+
+  
+
+}
+.studies h1{
+    font-size: 45px;
+
+
+}
+.studies h2{
+    font-size: 27px;
+    font-family:Georgia;'Times New Roman'; Times, serif;
+    font-weight:bold;
+}
+
+
+.institute{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size:medium;
+}
+.gap1{
+    width: 60%;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+.ability{
+    display: flex;
+    padding: 5%  8%;
+    gap: 8em;
+}
+.ability h1{
+    font-size: 45px;
+}
+.skills
+{
+    text-align: justify;
+    margin-left: 25%;
+}
+.known{
+    font-size: 27px;
+    font-weight: 500;
+}
+.gap2{
+    width: 60%;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+.real{
+    display: flex;
+    padding: 5% 8%;
+    gap: 9em;
+}
+.real h1{
+    font-size: 45px;
+}
+.project{
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 35%;
+}
+.projecttitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+.overview{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: medium;
+
+}
+.gap3{
+    width: 60%;
+    margin-left: 22%;
+    margin-right: 20%;
+
+}
+.contact h1{
+    font-size: 45px;
+}
+.contact{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-between;
+}
+footer{
+    text-align: center;
+}
